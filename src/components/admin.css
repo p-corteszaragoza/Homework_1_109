@@ -1,0 +1,42 @@
+.admin-page h1{
+    height: auto;
+}
+
+.admin-page .capture-form{
+    width: 360px;
+    padding: 20px 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    background-color: #d3bce3;
+    margin: 20px;
+}
+
+.admin-page .my-control {
+    margin-bottom: 12px;
+}
+
+.admin-page .my-control label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 7px;
+}
+
+.admin-page .my-control input{
+    display: inline-block;
+    width: 230px;
+}
+
+.admin-page .btn{
+    display: inline-block;
+    margin: .5rem;
+    background-color: var(--secondary-light);
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 30px var(--secondary-light);
+ }
+
+ .admin-page .btn:hover{
+    color: white;
+    background-color: var(--aux-light);   
+ }
